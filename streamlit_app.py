@@ -149,7 +149,7 @@ def main():
         city = st.selectbox("City", uni["city"],key="15")
     
     add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
+    "How would you like to be contacted? hiiiii",
     ("Email", "Home phone", "Mobile phone")
 )
     import time
