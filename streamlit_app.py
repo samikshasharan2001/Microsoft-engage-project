@@ -6,7 +6,6 @@
 
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
 import pickle
 import numpy as np
 from catboost import CatBoostClassifier
