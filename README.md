@@ -1,5 +1,9 @@
 # Microsoft-engage-project
+---
 <details>
 <summary>Tables of Content</summary>
-This is a dropdown with text!
+1.About The Project
+  Salient Features
+  Compatible Platforms
+  Built With
 </details>
