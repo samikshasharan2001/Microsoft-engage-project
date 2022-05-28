@@ -1,4 +1,4 @@
-# Microsoft-engage-project   Car Resale valuation prediction App
+# Car Resale valuation prediction App
 ---
 <details>
 <summary>Tables of Content</summary>
