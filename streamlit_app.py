@@ -119,7 +119,7 @@ def main():
     col1, col2= st.columns([1,1])
 
     with col1:
-        year = st.text_input("YEAR", value=2010, key=1, help="Year")
+        year = st.text_input("YEAR", value=2010, key=1, help="Year in which you want to find the car's resale value")
     with col2:
         manufacturer = st.selectbox("MANUFACTURE", uni["manufacturer"],key="2")
     with col1:
