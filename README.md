@@ -2,7 +2,8 @@
 ---
 <details>
 <summary>Tables of Content</summary>
-1.<a name="About The Project">
+1.[About The Project]
+  <a name="About The Project">
   
   Salient Features
   Compatible Platforms
