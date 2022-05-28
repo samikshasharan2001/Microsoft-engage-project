@@ -153,8 +153,8 @@ def main():
 )
     import time
     with st.sidebar:
-        st.write("FAQs\n")
-            st.write("What is car resale valuation?")
+         st.write("FAQs\n")
+            st.write("What is car resale valuation?\n")
             st.write("- The price of any car depreciates over time and is dependent upon numerous attributes that determine the resale value of the car in  various cities around the USA. These attributes include year of resale,brand, model, miles driven ,overall condition of the car etc. Car Resale Valuation Prediction App incorporates all these factors into the pricing model that takes into account the previous car resale data to determine the most accurate price range for your car.\n")
             st.write("Do I have to pay or register for using Car resale Valuation APP?\n")
             st.write("- No, you do not have to register or pay to use the Car resale Valuation tool.\n")
