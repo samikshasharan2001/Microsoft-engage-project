@@ -121,11 +121,11 @@ def main():
     with col1:
         year = st.text_input("YEAR", value=2010, key=1, help="Year in which you want to find the car's resale value")
     with col2:
-        manufacturer = st.selectbox("MANUFACTURE", uni["manufacturer"],key="2")
+        manufacturer = st.selectbox("MANUFACTURE", uni["manufacturer"],key="2",help="Brand")
     with col1:
         model = st.selectbox("MODEL", uni["model"],key="3")
     with col2:
-        condition = st.selectbox("CONDITION", uni["condition"],key="4",help="condition rating of car")
+        condition = st.selectbox("CONDITION", uni["condition"],key="4",help="rating based on the condition of the car")
     with col1:
         cylinders = st.selectbox("CYLINDERS", uni["cylinders"],key="5",help="number of cylinders in the engine")
     with col2:
@@ -153,12 +153,11 @@ def main():
 )
     import time
     with st.sidebar:
-        with st.echo():
-            st.write("This code will be printed to the sidebar.")
-
-        with st.spinner("Loading..."):
-            time.sleep(5)
-        st.success("Done!")
+        st.write("FAQs\n")
+            st.write("What is car resale valuation?\n")
+            st.write("- The price of any car depreciates over time and is dependent upon  numerous attributes that determine the resale value of the car in  various cities around the USA. These attributes include year of resale,brand, model, miles driven ,overall condition of the car etc. Car Resale Valuation Prediction App incorporates all these factors into the pricing model that takes into account the  previous car resale data to determine the most accurate price range for your car.\n")
+            st.write("Do I have to pay or register for using Car resale Valuation APP?\n")
+            st.write("- No, you do not have to register or pay to use the Car resale Valuation tool.\n")
     
     result =""
     lat=np.array(d[d["city"]==city]["lat"]).mean()
