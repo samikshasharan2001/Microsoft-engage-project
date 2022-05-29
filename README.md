@@ -13,7 +13,8 @@
 <summary>Table Of Contents</summary>
 <ul><li><a href="https://github.com/samikshasharan2001/Microsoft-engage-project/edit/main/README.md#about-the-project">About The Project</a></li>
 <li><a href="https://github.com/samikshasharan2001/Microsoft-engage-project/edit/main/README.md#tech-stack">Tech Stack</a></li>
- <li><a href="https://github.com/samikshasharan2001/Microsoft-engage-project/edit/main/README.md#getting-started">Getting Started</a></li></ul>
+ <li><a href="https://github.com/samikshasharan2001/Microsoft-engage-project/edit/main/README.md#getting-started">Getting Started</a></li>
+ <li><a href="https://github.com/samikshasharan2001/Microsoft-engage-project/edit/main/README.md#run-locally">Run Locally</a></li></ul>
 </details>
   
   
@@ -33,6 +34,26 @@ CatBoost (python installation )
   pip install catboost
 ```
  Other Dependencies are: `numpy` `pandas` `seaborn` `os` 
+ 
+ 
+## Run Locally
+#### To separately run the  application on your local host, perform the following steps:
+
+Clone the project
+
+```bash
+  git clone https://github.com/samikshasharan2001/Microsoft-engage-project.git
+```
+
+Go to the project directory
+
+```bash
+  cd microsoft-engage-project
+```
+Run the following commands to start the server side.
+```bash
+ streamlit run streamlit_app.py
+```
  
  
  
