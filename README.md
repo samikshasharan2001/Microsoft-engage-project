@@ -82,6 +82,10 @@ Link to the app:- https://share.streamlit.io/samikshasharan2001/microsoft-engage
  This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models.
  
  - Streamlit for deploying light ML models- Streamlit is an open source app framework in Python language. It helps us create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc.
+ 
+ ## Future Improvement 
+ - As soon as a car or model is selected, the dropdown and the value that could be selected for a feature should be updated depending upon the attributes of the car or manufactured selected.
+ - Although categorical boosting seems to be the best algorithm provided the dataset. Other tree based or SVMs could be tried out. More intensive hyper parameter search could be done using grid search
 
  
  
