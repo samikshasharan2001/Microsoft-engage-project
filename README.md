@@ -78,7 +78,7 @@ Link to the app:- https://share.streamlit.io/samikshasharan2001/microsoft-engage
 
 - Data cleaning and feature engineering- the process of selecting, manipulating, and transforming raw data into features that can be used in supervised learning.
 - Model Training - With the help of catboost library, I have used a boosted decision tree algorithm to model resale value w.r.t. vehicle's independent features.<br>
- `catboost library` - ix machine learning library to handle categorical (CAT) data automatically.
+ `catboost library` - is a machine learning library used to handle categorical (CAT) data automatically.
  This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models
  
  
