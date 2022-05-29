@@ -79,13 +79,19 @@ Link to the app:- https://share.streamlit.io/samikshasharan2001/microsoft-engage
 - Data cleaning and feature engineering- the process of selecting, manipulating, and transforming raw data into features that can be used in supervised learning.
 - Model Training - With the help of catboost library, I have used a boosted decision tree algorithm to model resale value w.r.t. vehicle's independent features.<br>
  `catboost library` - is a machine learning library used to handle categorical (CAT) data automatically.
- This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models.
+ This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models.<br>
+ ### Model training
+ <img width="936" align="centre" alt="Screenshot 2022-05-29 at 1 12 57 PM" src="https://user-images.githubusercontent.com/105884271/170885881-d3ed93cd-1fab-4c61-8361-822d9ea77267.png">
+I took 60-70 random data points from the test dataset as indicated by the y_hat(blue) while y_val(red) are the values predicted by the trained model.
+ As one can see the predicted values closely follow the original values, thereby indicating that the model is trained well.
+ 
+ <br>
  
  - Streamlit for deploying light ML models- Streamlit is an open source app framework in Python language. It helps us create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc.
  
  ## Future Improvement 
  - As soon as a car or model is selected, the dropdown and the value that could be selected for a feature should be updated depending upon the attributes of the car or manufactured selected.
- - Although categorical boosting seems to be the best algorithm provided the dataset. Other tree based or SVMs could be tried out. More intensive hyper parameter search could be done using grid search
+ - Although categorical boosting seems to be the best algorithm provided the dataset. Other tree based or SVMs could be tried out. More intensive hyper parameter search could be done using grid search.
 
  
  
