@@ -42,6 +42,8 @@ CatBoost (python installation )
 ```
  Other Dependencies are: `numpy` `pandas` `seaborn` `os` `pickle`
  
+#### Use a python IDE to implement predict-car-price-by-catboost-2.py file.
+ 
  
 ## Run Locally
 #### To separately run the  application on your local host, perform the following steps:
