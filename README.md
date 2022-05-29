@@ -40,7 +40,7 @@ CatBoost (python installation )
  ```bash
   pip install streamlit
 ```
- Other Dependencies are: `numpy` `pandas` `seaborn` `os` `pickle` `SciPy`
+ Other Dependencies are: `numpy` `pandas` `seaborn` `os` `pickle` `SciPy` `scikit-learn`
  
 #### Use a python IDE to implement predict-car-price-by-catboost-2.py file.
  
@@ -79,8 +79,10 @@ Link to the app:- https://share.streamlit.io/samikshasharan2001/microsoft-engage
 - Data cleaning and feature engineering- the process of selecting, manipulating, and transforming raw data into features that can be used in supervised learning.
 - Model Training - With the help of catboost library, I have used a boosted decision tree algorithm to model resale value w.r.t. vehicle's independent features.<br>
  `catboost library` - is a machine learning library used to handle categorical (CAT) data automatically.
- This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models
+ This library contains the `CatBoostRegressor` and `CatBoostClassifier` models with a similar interface as scikit-learn models.
  
+ - Streamlit for deploying light ML models- Streamlit is an open source app framework in Python language. It helps us create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc.
+
  
  
 
